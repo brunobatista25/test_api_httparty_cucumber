@@ -1,0 +1,60 @@
+{
+  "clientes": [
+    {
+      "nome": "Glenna Schneider",
+      "cpf": "86930618446",
+      "endereco": "Dathomir",
+      "usuario": "Blastoise",
+      "senha": "inicial5458",
+      "id": 2
+    },
+    {
+      "nome": "Jalen Stanton",
+      "cpf": "43831967806",
+      "endereco": "DQar",
+      "usuario": "Rhydon",
+      "senha": "7539393306",
+      "id": 3
+    },
+    {
+      "nome": "Gregoria Hills",
+      "cpf": "94162462984",
+      "endereco": "Yavin 4",
+      "usuario": "Magnemite",
+      "senha": "3423935320",
+      "id": 4
+    },
+    {
+      "nome": "Aaliyah Kovacek",
+      "cpf": "49790857845",
+      "endereco": "Tatooine",
+      "usuario": "Marowak",
+      "senha": "5088845196",
+      "id": 5
+    },
+    {
+      "nome": "Cristian Emmerich I",
+      "cpf": "04758570620",
+      "endereco": "Scarif",
+      "usuario": "Moltres",
+      "senha": "8684884978",
+      "id": 6
+    },
+    {
+      "nome": "Mr. Rebeca Dach",
+      "cpf": "06442014363",
+      "endereco": "Mos Eisley",
+      "usuario": "Abra",
+      "senha": "2192948141",
+      "id": 7
+    },
+    {
+      "nome": "Justus Eichmann",
+      "cpf": "09247375908",
+      "endereco": "DQar",
+      "usuario": "Haunter",
+      "senha": "3524391369",
+      "id": 8
+    }
+  ]
+}
