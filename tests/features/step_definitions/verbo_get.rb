@@ -1,5 +1,5 @@
 Dado('que eu faça um GET no endpoint clientes') do
-  @get_clientes = HTTParty.get 'http://localhost:3000/clientes'
+  @get_clientes = RegisterService.get '/'
 end
 
 Entao('o retorno dele será todos os clientes cadastrados') do

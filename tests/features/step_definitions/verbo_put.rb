@@ -12,11 +12,7 @@ Dado('que eu altere os parametros do meu cliente de um cliente específico') do
     senha: @senha_alterada
   }.to_json
 
-  @put = HTTParty.put 'http://localhost:3000/clientes/2',
-                      body: @body_put,
-                      headers: {
-                        'Content-Type' => 'application/json'
-                      }
+  @put = RegisterService.put '/2', body: @body_put
 end
 
 Entao('esse cliente devera ser atualizado com sucesso') do

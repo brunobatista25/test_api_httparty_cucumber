@@ -3,11 +3,7 @@ Dado('que eu envie um registro para delecao') do
     id: 1
   }.to_json
 
-  @delete = HTTParty.delete 'http://localhost:3000/clientes/1',
-                            body: @body_delete,
-                            headers: {
-                              'Content-Type' => 'application/json'
-                            }
+  @delete = RegisterService.delete('/1', body: @body_delete)
 end
 
 Entao('o registro devera ser deletado do banco com sucesso') do

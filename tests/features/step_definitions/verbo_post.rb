@@ -6,11 +6,7 @@ Dado('que eu envie os parâmetros corretos para o endpoint clientes') do
     usuario: Faker::Pokemon.name,
     senha: Faker::Number.number
   }.to_json
-  @post_clientes = HTTParty.post 'http://localhost:3000/clientes/',
-                                 body: @body,
-                                 headers: {
-                                   'Content-Type' => 'application/json'
-                                 }
+  @post_clientes = RegisterService.post '/', body: @body
 end
 
 Entao('um novo cliente é cadastrado com sucesso na base') do

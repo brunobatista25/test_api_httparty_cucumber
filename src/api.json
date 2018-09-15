@@ -2,6 +2,14 @@
   "clientes": [
     {
       "nome": "Glenna Schneider",
+      "cpf": "86930618346",
+      "endereco": "Dathomir",
+      "usuario": "Blastoisee",
+      "senha": "inicial54589",
+      "id": 1
+    },
+    {
+      "nome": "Glenna Schneider",
       "cpf": "86930618446",
       "endereco": "Dathomir",
       "usuario": "Blastoise",
